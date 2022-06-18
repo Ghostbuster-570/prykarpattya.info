@@ -1,1 +1,0 @@
-# prykarpattya.info
