@@ -1,12 +1,11 @@
 .kassa {
     margin: 0px;
     padding: 0;
-    background-color: antiquewhite;
+    background-color: rgb(229, 147, 40);
 }
 
-p {
-    font-size: 32px;
-}
+
+
 
 .atb-paket {
     width: 400px;
@@ -24,8 +23,8 @@ p {
 
     display: flex;
     justify-content: space-between;
-    background-color: rgb(145, 135, 224);
-    color: aliceblue;
+    background-color: rgb(135, 188, 224);
+    color: rgb(20, 123, 212);
 }
 
 .menu-item{
@@ -36,7 +35,7 @@ p {
 
 .menu-item:hover{
     color: aquamarine;
-    background-color: rgb(145, 135, 224);
+    background-color: rgb(135, 188, 224);
 }
 
 
@@ -57,7 +56,16 @@ p {
     border-top-left-radius: 60px;
     border-bottom-right-radius: 60px;
     box-shadow: 0 0 5px 5px;
+    max-width: 70%;
+    
+}
 
+.main-section img{
+   width: 100%;
+}    
+
+.colorg{
+    background-color: aqua;
 }
 
 
