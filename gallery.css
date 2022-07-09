@@ -1,0 +1,32 @@
+.gallery {
+    display: flex;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.controls {
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.controls button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50% ;
+    cursor: pointer;
+}
+
+.colory {
+    background-color: aqua;
+    min-height: 100%;
+}
+
+.first_image {
+    margin-left: -12px;
+}
+
+#left_button, #right_button {
+    background-color: aquamarine;
+}

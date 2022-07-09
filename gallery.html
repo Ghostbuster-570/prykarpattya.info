@@ -5,17 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Галерея</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="gallery.css">
 </head>
 <body>
     <header>
         <nav>
         <ul class="menu">
             <li>
-                <a class="menu-item" href="/index.html">головна</a>
+                <a class="menu-item" href="index.html">головна</a>
             </li>
             <li>
-                <a class="menu-item" href="">галерея</a>
+                <a class="menu-item" href="#">галерея</a>
             </li>
             <li><a class="menu-item" href="">теги</a>
             </li>
@@ -27,10 +28,22 @@
      </ul>
     </nav>
     </header>
-    <main>
-        <div>
-            <img src="" alt="">
+    <main class="colory">
+        <div class="gallery">
+            <img class="first_image" src="https://loremflickr.com/320/300" alt="Cute cat">
+            <img src="https://loremflickr.com/350/300" alt="Cute cat">
+            <img src="https://loremflickr.com/370/300" alt="Cute cat">
+            <img src="https://loremflickr.com/380/300" alt="Cute cat">
+            <img src="https://loremflickr.com/310/300" alt="Cute cat">
+            <img src="https://loremflickr.com/385/300" alt="Cute cat">
+            <img src="https://loremflickr.com/350/300" alt="Cute cat">
+            <img src="https://loremflickr.com/370/300" alt="Cute cat">
+        </div>
+        <div class="controls">
+            <button id="left_button">left</button>
+            <button id="right_button">right</button>
         </div>
     </main>
+    <script src="gallery.js"></script>
 </body>
 </html>
